@@ -7,7 +7,9 @@ Eu me esforcei muito e dei o meu melhor para fazer este projeto! Espero que aten
 -
 -
 
-Em primeiro lugar, ao baixar o arquivo aqui pelo GitHub acredito que o arquivo deve estar compactado. Então clique com o botão direito do mouse, e descompacte o mesmo. Entre no VSCODE (se não tiver, faça o download do programa: https://code.visualstudio.com/Download), e no VSCODE abra a pasta do arquivo descompactado. E então abra o campo de terminal do VSCODE, no terminal ative a venv do programa com o comando "  ./venv/Scripts/activate" (recomendo copiar e colar esse comando que botei aí), e então ative o servidor DJANGO com o comando "py manage.py runserver".
+Em primeiro lugar, ao baixar o arquivo aqui pelo GitHub acredito que o arquivo deve estar compactado. Então clique com o botão direito do mouse, e descompacte o mesmo. 
+Entre no VSCODE (se não tiver, faça o download do programa: https://code.visualstudio.com/Download), e no VSCODE abra a pasta do arquivo descompactado. 
+E então abra o campo de terminal do VSCODE, no terminal ative a venv do programa com o comando "  ./venv/Scripts/activate" (recomendo copiar e colar esse comando que botei aí), e então ative o servidor DJANGO com o comando "py manage.py runserver".
 Espere, e após ativado o servidor digite esta URL no seu navegador:
 
 http://127.0.0.1:8000/api/pessoas/CRUD/
@@ -30,7 +32,8 @@ Nesta URL podem ser feito os métodos CRUD (Create, Read, Update e Delete), em q
         "person_contact": "2198711243"
     }
 
-E no 2° campo você pode editar algum destes 2 testes acima, repetindo o "person_id" que você quer mudar. Por exemplo, se você quiser modificar a base de dados person_id 1 que tem nome de joão, profissão de endereço e etc, mantenha o "person_id": "1" como tá abaixo:
+E no 2° campo você pode editar algum destes 2 testes acima, repetindo o "person_id" que você quer mudar. 
+Por exemplo, se você quiser modificar a base de dados person_id 1 que tem nome de joão, profissão de endereço e etc, mantenha o "person_id": "1" como tá abaixo:
     {
         "person_id": "1",
         "person_name": "roberto",
@@ -78,7 +81,8 @@ Testes para adicionar consultas: "Método POST":
         "consultation_person": "luan"
     }
     
-E no 2° campo você pode editar algum destes 2 testes acima, repetindo o "consultation_id" que você quer mudar. Por exemplo, se você quiser modificar a base de dados consultation_id 1 que tem nome do profissional vinculado a consulta como "joao", mantenha o "consultation_id": "1" como tá abaixo:
+E no 2° campo você pode editar algum destes 2 testes acima, repetindo o "consultation_id" que você quer mudar. 
+Por exemplo, se você quiser modificar a base de dados consultation_id 1 que tem nome do profissional vinculado a consulta como "joao", mantenha o "consultation_id": "1" como tá abaixo:
 
 {
         "consultation_id": "1",
